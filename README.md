@@ -29,3 +29,55 @@ The developed module significantly **boosted operational efficiency** across cor
 
 ## ✨ Core Features Showcase
 The POS IM module is engineered to handle complex retail operations, providing administrators and operators with a powerful, real-time control panel.
+
+### 1\. Centralized Multi-Store Inventory Management
+
+The system enables precise tracking of stock levels across **multiple store locations** and facilitates immediate inventory reconciliation during transfers, significantly reducing logistical bottlenecks and out-of-stock situations.
+
+  * **Key Function:** View real-time stock levels for a specific product across all affiliated stores.
+
+![Multi-Store Inventory Interface](frontend/public/anh2.PNG)
+
+### 2\. Streamlined Product Transfer Interface
+
+This feature automates the process of transferring goods between two specific stores, ensuring data integrity (ACID compliance) during the transaction and instantly updating stock records in the central MySQL database.
+
+  * **Key Function:** Select source/destination stores and quantity to execute a validated internal transfer.
+
+![Transfers Interface](frontend/public/anh3.PNG)
+![Transfers Interface](frontend/public/anh4.PNG)
+
+
+### 3\. Automated Low Stock Alerting System
+
+The module proactively monitors all product inventory levels. When stock for an item falls below its predefined threshold, the system immediately notifies the administrator through two channels.
+
+  * **Channels:** Dashboard UI notification and automated **Email notification**.
+
+![Dashboard Interface](frontend/public/anh5.PNG)
+![Email low stock Interface](frontend/public/anh6.PNG)
+
+### 4\. Sales Transaction Recording and History
+
+Beyond inventory management, the module logs all successful sales transactions, allowing for accurate debits from the inventory and providing a comprehensive sales history view for auditing.
+
+  * **Key Function:** View detailed records of sales, including the time, items sold, and the affected store.
+
+![Sales Interface](frontend/public/anh7.PNG)
+
+### 5\. Product Catalog Management (CRUD Operations)
+
+This core function provides a seamless interface for managing the entire product lifecycle—from creation to retirement. It ensures data integrity by validating product uniqueness via the SKU upon creation.
+
+  * **Key Functions:** Adding new products, editing attributes (Name, Price, Category), and searching/filtering the catalog.
+
+![Products Interface](frontend/public/anh8.PNG)
+
+### 6\. Administrative Control Panels (Store and User Management)
+
+The module includes high-level administrative tools, demonstrating the application's **role-based authorization (Admin)**. This includes dedicated interfaces for managing physical store locations and authorized system users.
+
+* **Store Management**
+![Store Interface](frontend/public/anh9.PNG)
+* **User Management**
+![User Interface](frontend/public/anh10.PNG)
