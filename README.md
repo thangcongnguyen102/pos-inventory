@@ -81,3 +81,17 @@ The module includes high-level administrative tools, demonstrating the applicati
 ![Store Interface](frontend/public/anh9.PNG)
 * **User Management**
 ![User Interface](frontend/public/anh10.PNG)
+
+## 🛠️ Technology Stack
+
+The project is built on a **RESTful API** architecture using the modern MERN-adjacent stack (Node.js, Express, React, MySQL).
+
+| Component | Technology | Rationale |
+| :--- | :--- | :--- |
+| **Backend / API** | **Node.js** + **Express.js** | Fast, scalable runtime and minimalist framework for building APIs. |
+| **Frontend / UI** | **React.js** | Component-based, Single-Page Application (SPA) architecture for a dynamic user experience. |
+| **Database (DBMS)** | **MySQL** | Chosen for its reliability, transaction support (ACID compliance), and suitability for complex relational inventory data. |
+| **Authentication** | **JWT (JSON Web Tokens)** | Secure and stateless mechanism for user authorization and role-based access control (Admin/Operator). |
+| **Testing** | **Jest** & **Supertest** | Used for Unit and Integration testing of the server API logic, achieving **80% code coverage**. |
+
+---
