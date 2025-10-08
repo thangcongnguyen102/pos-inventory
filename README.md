@@ -95,3 +95,77 @@ The project is built on a **RESTful API** architecture using the modern MERN-adj
 | **Testing** | **Jest** & **Supertest** | Used for Unit and Integration testing of the server API logic, achieving **80% code coverage**. |
 
 ---
+
+## 🚀 Setup and Installation
+
+Follow these instructions to set up and run the project locally.
+
+### Prerequisites
+
+* **Node.js** (`v18.x` or newer)
+* **MySQL Server**
+* **Git**
+
+### 1. Database Configuration
+
+1.  Create a new MySQL database (e.g., `pos_inventory_db`).
+2.  Run the necessary schema migrations/SQL scripts to create the tables (`Products`, `Stores`, `Inventory`, etc.).
+
+### 2. Backend Setup (Server API)
+
+```bash
+# Clone the repository
+git clone <YOUR_GITHUB_REPO_URL>
+cd pos-inventory-module/server 
+
+# Install dependencies
+npm install
+
+# Configure environment variables (create a .env file)
+# Example .env:
+# DB_HOST=localhost
+# DB_USER=<your_mysql_user>
+# DB_PASSWORD=<your_mysql_password>
+# DB_NAME=pos_inventory_db
+# JWT_SECRET=super_secret_key_for_auth
+# EMAIL_USER=<notification_email>
+# EMAIL_PASS=<email_app_password>
+
+# Start the server
+npm start
+# or for development
+npm run dev
+````
+
+### 3\. Frontend Setup (Client UI)
+
+```bash
+cd ../client # Assuming your client folder is adjacent to server
+
+# Install dependencies
+npm install
+
+# Configure API base URL (create a .env.local file)
+# Example .env.local:
+# VITE_API_BASE_URL=http://localhost:3000/api
+
+# Start the client application
+npm run dev
+```
+
+The application should now be accessible at `http://localhost:5173` (or the port specified).
+
+-----
+
+## 👤 Contact
+
+This project was developed as a Final Qualification Work (FQK) at **[Moscow Institute of Electronic Technology]**.
+
+  * **Author:** Nguyen Cong Thang
+  * **Email:** `<Thangcongnguyen102@gmail.com>`
+  * **[Optional] Project Documentation:** [Technical Specification PDF](https://drive.google.com/file/d/1nN9eOtIuZx2lygl-0smW4W3C9KOVZ2L9/view?usp=sharing)
+
+<!-- end list -->
+
+```
+```
