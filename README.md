@@ -163,7 +163,7 @@ This project was developed as a Final Qualification Work (FQK) at **[Moscow Inst
 
   * **Author:** Nguyen Cong Thang
   * **Email:** `<Thangcongnguyen102@gmail.com>`
-  * **[Optional] Project Documentation:** [Technical Specification PDF](https://drive.google.com/file/d/1nN9eOtIuZx2lygl-0smW4W3C9KOVZ2L9/view?usp=sharing)
+  * **[Optional] Project Documentation:** [Technical Specification PDF by russian language -82 pages](https://drive.google.com/file/d/1nN9eOtIuZx2lygl-0smW4W3C9KOVZ2L9/view?usp=sharing)
 
 <!-- end list -->
 
